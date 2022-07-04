@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="/style/game.css" type="text/css">
+</head>
+<body>
+    <div class="game">
+        <div class="menu">
+            <div class="back"><a href="/" class="back-home">&lt;</a></div>
+            <div class="logo">
+                <img class="logogames" src="./style/assets/logo 1.svg" alt="Logo">
+            </div>
+            <div class="title">ROCK, PAPER, SCISSORS</div>
+        </div>
+        <div class="game-on">
+            <div class="user-choice">
+                <div class="user-name"> PLAYER 1</div>
+                <button class="choice hide" id="user-rock">
+                    <img class="batu" src="./style/assets/batu.png" alt="batu">
+                </button>
+                <button class="choice hide" id="user-paper">
+                    <img class="kertas" src="./style/assets/kertas.png" alt="kertas">
+                </button>
+                <button class="choice hide" id="user-scissor">
+                    <img class="gunting" src="./style/assets/gunting.png" alt="gunting">
+                </button>
+            </div>
+            <div class="middle">
+                <div class="boxDisplay" id="box"></div>
+                <h1 id="versus">vs</h1>
+                <div class="restart">
+                    <img id="reset" src="./style/assets/refresh.png" alt="reset">
+                </div>
+            </div>
+            <div class="com-choice">
+                <div class="com-name">COM</div>
+                <button class="choice hide" id="com-rock">
+                    <img class="batu" src="./style/assets/batu.png" alt="batu">
+                </button>
+                <button class="choice hide" id="com-paper">
+                    <img class="kertas" src="./style/assets/kertas.png" alt="kertas">
+                </button>
+                <button class="choice hide" id="com-scissor">
+                    <img class="gunting" src="./style/assets/gunting.png" alt="gunting">
+                </button>  
+            </div> 
+            
+        </div>
+    </div>
+ <script type="text/javascript" src="js/game.js" charset="utf-8"></script>
+</body>
+</html>

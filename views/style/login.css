@@ -1,0 +1,43 @@
+@font-face {
+    font-family: gameFonts;
+    src: url(assets/OpenSans-Bold.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: gameFonts;
+}
+
+.login-shape {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-title {
+    font-size: 36px;
+}
+
+.username {
+    margin : 20px;
+}
+
+.password {
+    margin : 10px;
+}
+
+.login-button {
+    margin: 10px;
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+  
+}

@@ -1,0 +1,190 @@
+@font-face {
+    font-family: gameFonts;
+    src: url(assets/OpenSans-Bold.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: gameFonts;
+}
+
+html,body{
+    overflow-x: hidden;
+}
+
+
+.game {
+    justify-content: center;
+    background-color: #9C835F;
+    background-size: cover;
+    width: 100%;
+    
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    width: 100%;
+}
+
+
+.back {
+    color: #724C21;
+    font-size: 36px;
+}
+
+a.back-home {
+    color: #724C21;
+    font-size: 36px;
+    text-decoration: none;
+}
+
+.logogames {
+    width: 80%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+    color: #F9B23D;
+    font-size: 24px;
+}
+
+.game-on {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.user-name {
+    font-size: 32px;
+    margin: 50px;
+    text-align: center;
+}
+
+.com-name {
+    font-size: 32px;
+    margin: 50px;
+    text-align: center;
+}
+
+.user-choice {
+    padding: 20px;
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.com-choice {
+    padding: 20px;
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+}
+
+.focus {
+    background-color: #C4C4C4;
+    border-radius: 30px;
+}
+
+.choice {
+    margin: 50px;
+    
+}
+
+.gunting {
+    width: 134px;
+    height: 160px;
+    padding: 30px;
+}
+
+.batu {
+    width: 128px;
+    height: 92px;
+    padding: 30px;
+}
+
+.kertas {
+    width: 115px;
+    height: 150px;
+    padding: 30px;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#versus {
+    padding-top: 200px;
+    font-size: 100px;
+    color: #BD0000;
+}
+
+.restart{
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+
+#reset {
+    width: 77px;
+    height: 71px;
+    display: flex;
+    
+
+}
+
+
+@media screen and (max-width: 425px){
+
+    .game {
+        width: 100%;
+    }
+
+    .game-on {
+        padding:20px;
+        flex-wrap: wrap;
+    }
+
+    .menu {
+        width: auto;
+    }
+
+
+    .gunting, .batu , .kertas {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .com-choice {
+        justify-items: center;
+    }
+
+    .user-choice {
+        justify-items: center;
+  
+    }
+
+    #versus {
+        padding: 0px;
+        font-size: 50px;
+    }
+    
+  
+}
